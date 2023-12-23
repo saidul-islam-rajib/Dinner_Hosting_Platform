@@ -14,9 +14,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoberDinner.Infrastructure", "SoberDinner.Infrastructure\SoberDinner.Infrastructure.csproj", "{B9767C50-1548-41B9-8689-0DEDB405BD99}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requests", "Requests", "{0CCC87E0-0BA0-4B2B-BBBF-3834F933BD1B}"
-	ProjectSection(SolutionItems) = preProject
-		GetForcasts.http = GetForcasts.http
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,5 +44,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E07DF73-EAA4-4862-9787-A0305D27437A}
 	EndGlobalSection
 EndGlobal
